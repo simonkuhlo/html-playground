@@ -1,0 +1,77 @@
+div{
+    border: 1px solid black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+
+
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    gap: 5px;
+    padding: 5px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+.status-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: auto;
+}
+
+
+
+
+.version-bar{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 5px;
+    padding: 5px;
+}
+
+.version-fileslist-container{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 5px;
+    padding: 5px;
+}
+
+
+
+
+.document-bar{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 5px;
+    padding: 5px;
+}
+
+.document-fileslist-container{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 5px;
+    padding: 5px;
+}
