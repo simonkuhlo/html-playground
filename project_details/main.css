@@ -53,7 +53,6 @@ div{
 .version-bar{
     display: flex;
     flex-direction: column;
-    height: 200px;
     gap: 5px;
     padding: 5px;
 }
@@ -61,11 +60,23 @@ div{
 .version-fileslist-container{
     display: flex;
     flex-direction: row;
-    height: 200px;
     gap: 5px;
     padding: 5px;
 }
 
+.version-file-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.version-add-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
 
 
 
