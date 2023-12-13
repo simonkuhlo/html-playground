@@ -13,14 +13,14 @@ This file contains all standard borders for html styling
     border: 1px solid var(--border_color);
 }
 
-.bd.bd_card {
+.bd_card {
     border: 2px solid var(--border_color);
     border-bottom: 5px solid var(--border_color);
     border-radius: 10px;
     transition-duration: 0.25s;
 }
 
-.bd.bd_card:hover {
+.bd_card:hover {
     box-shadow: 0 0 30px 1px rgb(0 0 0 / 15%);
     transition-duration: 0.25s;
 }
