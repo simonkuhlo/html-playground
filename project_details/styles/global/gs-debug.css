@@ -1,0 +1,9 @@
+/* 
+gs = global standard
+
+This file can be used during a debug or testing phase of html files
+*/
+
+div{
+    border: 1px dotted blue
+}
