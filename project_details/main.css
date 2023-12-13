@@ -15,19 +15,19 @@ div{
     display: flex;
 }
 
-.fc .column_fc{
+.fc .fc_column{
     flex-direction: column;
 }
 
-.fc .row_fc{
+.fc .fc_row{
     flex-direction: row;
 }
 
-.fc .standard_fc{
+.fc .fc_standard{
     gap: 5px;
     padding: 5px;
 }
 
-.fc .center_fc{
-    justify-content: center;
+.fc .fc_center{
+    align-items: center;
 }
