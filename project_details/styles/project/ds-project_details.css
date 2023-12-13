@@ -27,16 +27,12 @@ All special stylings for elements from a certain document go here
 
 
 .ds_c-version_element {
-    border: 1px solid black;
-    border-radius: 5px;
     width: 200px;
     height: 200px;
 }
 
 
 .ds_c-document_element{
-    border: 1px solid black;
-    border-radius: 5px;
     width: 200px;
     height: 250px;
 }
