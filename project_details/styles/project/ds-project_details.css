@@ -1,6 +1,8 @@
 /* 
 ds = document-specific
+
 c = container 
+tb = top bar
 
 All special stylings for elements from a certain document go here
 */
@@ -25,6 +27,10 @@ All special stylings for elements from a certain document go here
     text-align: center;
 }
 
+.tb_button{
+    height: 100%;
+    width: 70px;
+}
 
 .ds_c-version_element {
     width: 200px;
