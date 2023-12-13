@@ -15,8 +15,10 @@ All special stylings for elements from a certain document go here
     flex-direction: column;
 }
 
+
 #info-container{
     width: 500px;
+    min-height: 65px;
 }
 
 #status-container{
@@ -25,6 +27,7 @@ All special stylings for elements from a certain document go here
 }
 #status-container p{
     text-align: center;
+    margin: 0px;
 }
 
 .tb_button{
