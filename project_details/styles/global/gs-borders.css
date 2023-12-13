@@ -9,3 +9,15 @@ This file contains all standard borders for html styling
 .bd {
     border: 1px solid black;
 }
+
+.bd.bd_card {
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+
+.bd.bd_card:hover {
+    box-shadow: 0 0 30px 1px rgb(0 0 0 / 15%);
+    transition-duration: 0.25s;
+}
