@@ -6,18 +6,12 @@ All special stylings for elements from a certain document go here
 */
 
 
-div{
-    border: 1px solid black;
-}
-
 #main{
     gap: 5px;
     padding: 5px;
     display: flex;
     flex-direction: column;
 }
-
-
 
 #info-container{
     width: 500px;
