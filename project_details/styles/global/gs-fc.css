@@ -1,15 +1,8 @@
-div{
-    border: 1px solid black;
-}
+/* 
+fc = flex-container 
 
-
-
-#main{
-    gap: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-}
+All flex-containers for nesting etc. go here
+*/
 
 .fc{
     display: flex;
