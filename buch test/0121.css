@@ -1,0 +1,6 @@
+/* Scene layer */
+
+.f0121-scene-book {
+    margin-top: 100px;
+    transform: rotateX(15deg) translateZ(0);
+}
