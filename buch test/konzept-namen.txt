@@ -1,0 +1,4 @@
+0 - app 0=alle 1=eintrag_erstellen 2=buch_lesen
+0 - kategorie 0=allgemein 1=menü 2=szene
+0 - objektnummer 0=erstes objekt usw.
+0 - dokumentnummer 0=erstes dokument usw.

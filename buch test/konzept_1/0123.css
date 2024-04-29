@@ -1,0 +1,45 @@
+/* Element layer */
+
+/* Interview_element */
+.f0123-interview_element {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+/* Content */
+.f0123-interview_element-content {
+    position: relative;
+    width: 100%;
+    background: #9AAAD8;
+    display: flex;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    padding: 5px 5px 5px 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+
+/* Header */
+.f0123-interview_element-header {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: #304993;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: start;
+    padding: 0px 5px 0px 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
