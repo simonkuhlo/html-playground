@@ -5,7 +5,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    background: #FFFFFF;
+    background: #a0ced9;
     display: flex;
     align-items: start;
     align-content: stretch;
@@ -14,6 +14,7 @@
     padding: 10px 10px 10px 10px;
     flex-direction: row;
     flex-wrap: nowrap;
+    border-radius: 15px;
 }
 
 /* Image */
@@ -21,7 +22,7 @@
     position: relative;
     width: 150px;
     height: 200px;
-    background: #E3E3E3;
+    background: #809bce;
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -30,7 +31,7 @@
 .f0124-infobox-table {
     position: relative;
     height: 200px;
-    background: #E3E3E3;
+    background: #809bce;
     overflow: hidden;
     flex: 1;
     flex-shrink: 0;
@@ -41,7 +42,7 @@
     position: relative;
     width: 100%;
     height: 50px;
-    background: #304993;
+    background: #809bce;
     overflow: hidden;
     display: flex;
     align-items: center;
