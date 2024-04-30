@@ -2,6 +2,7 @@
 
 .f0122-page {
     position: absolute;
+    top: 0;
     transition: transform 2s ease;
     transform-origin: left;
     transform-style: preserve-3d;
@@ -45,11 +46,6 @@
     transform: rotateY(-180deg);
 }
 
-#f012-page2 {
-    z-index: -1;
-    transform: translateZ(-5px);
-}
-
 .f022-cover {
     box-sizing: content-box;
     background-color: #ffee93;
@@ -62,6 +58,10 @@
     border: 1px solid black;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+.f022-cover-front {
+    position: relative;
 }
 
 .f022-cover-back {

@@ -9,13 +9,14 @@
     <link rel='stylesheet' type='text/css' media='screen' href="0122.css">
     <link rel='stylesheet' type='text/css' media='screen' href="0123.css">
     <link rel='stylesheet' type='text/css' media='screen' href="0124.css">
+    <script src="0125.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <div class="f0121-scene-book">
         <div class="f0122-page f022-cover f022-cover-front f0122-flipped"></div>
-        <div class="f0122-page" id="f012-page1">
+        <div class="f0122-page f0122-flipped" id="f012-page1">
             <div class="f0122-page-face f0122-page-face-front">
                 <!-- frame: Title -->
                 <div class="f0124-title">
@@ -78,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <div class="f0122-page" id="f012-page2">
+        <div class="f0122-page f0122-flipped" id="f012-page2">
             <div class="f0122-page-face f0122-page-face-front">
                 <div class="f0123-interview_element">
                     <!-- frame: Header -->
@@ -146,6 +147,10 @@
             </div>
         </div>
         <div class="f0122-page f022-cover f022-cover-back"></div>
+    </div>
+    <div class="f0121-controls">
+        <button onclick="prev_page()">Previous</button> 
+        <button onclick="next_page()">Next</button>
     </div>
 </body>
 
