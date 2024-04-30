@@ -1,0 +1,49 @@
+.f0133-picture {
+    min-height: 300px;
+    min-width: 250px;
+
+    border: 1px solid black;
+}
+
+.f0133-infotable {
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 200px;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    border: 1px solid black;
+}
+
+.f0133-interview_element {
+    width: 100%;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    border: 1px solid black;
+}
+
+.f0133-ie-header {
+    min-height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid black;
+}
+
+.f0133-ie-content {
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 5px;
+}
