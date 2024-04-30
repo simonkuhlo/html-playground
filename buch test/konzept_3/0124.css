@@ -1,0 +1,53 @@
+/* First Page special elements */
+
+/* Info_box */
+.f0124-infobox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #a0ced9;
+    display: flex;
+    align-items: start;
+    align-content: stretch;
+    justify-content: start;
+    gap: 5px;
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+
+/* Image */
+.f0124-infobox-image {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background: #809bce;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* Table */
+.f0124-infobox-table {
+    position: relative;
+    height: 200px;
+    background: #809bce;
+    overflow: hidden;
+    flex: 1;
+    flex-shrink: 0;
+}
+
+/* Title */
+.f0124-title {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #809bce;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
